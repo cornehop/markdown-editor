@@ -1,0 +1,16 @@
+.w-md-editor {
+    box-shadow: 0 0 0 1px #ff4d00, 0 0 0 #ff4d00, 0 1px 1px #ff4d00;
+}
+
+.w-md-editor-content {
+    background-color: #2b2b2b;
+    color: white;
+}
+
+.w-md-editor-preview {
+    box-shadow: inset 1px 0 0 0 #ff4d00;
+}
+
+.w-md-editor-text-input {
+    -webkit-text-fill-color: white;
+}
