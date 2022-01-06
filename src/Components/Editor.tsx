@@ -1,8 +1,6 @@
 import MDEditor, { commands } from "@uiw/react-md-editor";
 import React from "react";
 import { Container } from "react-bootstrap";
-import { openFileCommand } from "../EditorCommands/OpenFile";
-import { saveFileCommand } from "../EditorCommands/SaveFile";
 
 import '../Styles/Editor.css';
 
@@ -34,9 +32,7 @@ export default function Editor() {
                     commands.unorderedListCommand,
                     commands.orderedListCommand,
                     commands.checkedListCommand,
-                    commands.divider,
-                    openFileCommand,
-                    saveFileCommand
+                    commands.divider
                 ]}
                 height={750}
                 visiableDragbar={false}
